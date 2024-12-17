@@ -22,28 +22,26 @@ const backup = {
 }
 const totalizador = {
     filtrarEtotalizarCelulas(inputTarget) {
-        let classNameDosOperandos = inputTarget.dataset.totaleixox;
-        inputTarget.classList.add(`${classNameDosOperandos}`);
-        let operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
-        let celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totaleixoxoutput}`);
-        celulaDeSaida.value = this.somar(operandos);     
-        if(inputTarget.dataset.totaleixoy) {
-            classNameDosOperandos = inputTarget.dataset.totaleixoy;
+        if(inputTarget.dataset.totaleixox) {
+            let classNameDosOperandos = inputTarget.dataset.totaleixox;
             inputTarget.classList.add(`${classNameDosOperandos}`);
-            operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
-            celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totaleixoyoutput}`);
+            let operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
+            let celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totaleixoxoutput}`);
+            celulaDeSaida.value = this.somar(operandos);  
+        }     
+        if(inputTarget.dataset.totaleixoy) {
+            let classNameDosOperandos = inputTarget.dataset.totaleixoy;
+            inputTarget.classList.add(`${classNameDosOperandos}`);
+            let operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
+            let celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totaleixoyoutput}`);
             celulaDeSaida.value = this.somar(operandos);  
         }
         if(inputTarget.dataset.totalgeraleixoy) {
-            classNameDosOperandos = inputTarget.dataset.totalgeraleixoy;
+            let classNameDosOperandos = inputTarget.dataset.totalgeraleixoy;
             inputTarget.classList.add(`${classNameDosOperandos}`);
-            operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
-            celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totalgeraleixoyoutput}`);
+            let operandos = document.querySelectorAll(`.${classNameDosOperandos}`);
+            let celulaDeSaida = document.querySelector(`.${inputTarget.dataset.totalgeraleixoyoutput}`);
             celulaDeSaida.value = this.somar(operandos);
-        }
-        if(inputTarget.dataset.contactosmenoresde5rastreadosoutput) {
-            celulaDeSaida = document.querySelector(`.${inputTarget.dataset.contactosmenoresde5rastreadosoutput}`);
-            celulaDeSaida.value = inputTarget.value;
         }
     },
     somar(celulasPorTotalizar) {
@@ -55,7 +53,7 @@ const totalizador = {
     },
 }
 function escutarEventos() {
-    const inputsCelulares = document.querySelectorAll("[data-totaleixox]");
+    const inputsCelulares = document.querySelectorAll("[data-totaleixoyoutput], input-celular--focus");
     inputsCelulares.forEach( inputCelular => {
         inputCelular.addEventListener("input", () => totalizador.filtrarEtotalizarCelulas(inputCelular));
         inputCelular.value !== "" && totalizador.filtrarEtotalizarCelulas(inputCelular);
