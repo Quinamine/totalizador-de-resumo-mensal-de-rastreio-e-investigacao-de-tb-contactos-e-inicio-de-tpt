@@ -32,32 +32,6 @@ const referencia = {
         let indicadorColunar = indicadoresColunares[CelulaComFocoIndex];
         colOutput.textContent = indicadorColunar.textContent;
         linhaOutput.textContent = `${tituloDaSeccao} ${indicadorLinear.textContent}`;
-
-            /*let isSection3 = inputTarget.parentElement.matches(".ficha__seccao__body--3");
-        let isSection4 = inputTarget.parentElement.parentElement.matches(".ficha__seccao__body--4");
-        let isSubSection4 = inputTarget.parentElement.matches(".ficha__seccao-4__pseudo-body")
-            else if(isSection3) {
-                tituloDaSeccao = document.querySelector("#titulo-da-seccao-3");
-                let indicador = `${tituloDaSeccao.textContent}: ${celulaComFocoEirmas[0].textContent}`;
-                linhaOutput.textContent = indicador;
-                colOutput.textContent = "-";
-                return !1;
-            } else if(isSection4) {
-                tituloDaSeccao = document.querySelector("#titulo-da-seccao-4")
-            } else {
-                tituloDaSeccao = document.querySelector("#titulo-da-seccao-5");
-            }
-            let indicador = `${tituloDaSeccao.textContent}: ${celulaComFocoEirmas[0].textContent}`;
-            linhaOutput.textContent = indicador;
-            let faixasEtarias = ["0 - 4","5 - 9","10 - 14","15 - 19","20 - 24","25 - 34","35 - 44","45 - 54","55 - 64","≥ 65"];
-            let celulaFocadaIndex;           
-            for(let i = 0; i < celulaComFocoEirmas.length; i++) {
-                if(inputTarget === celulaComFocoEirmas[i]) {
-                    celulaFocadaIndex = i - 1;
-                }
-            }
-            colOutput.textContent = faixasEtarias[celulaFocadaIndex];
-        }*/
     },
     retornarVazio() {
         const outputs = document.querySelectorAll(".reference__output");
