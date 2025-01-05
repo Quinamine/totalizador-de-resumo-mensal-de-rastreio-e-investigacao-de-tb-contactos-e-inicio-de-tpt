@@ -262,3 +262,6 @@
         background-color: var(--cor-de-realce-de-totais);
     }
 }
+.input--font-small {
+    font-size: 11px;
+}

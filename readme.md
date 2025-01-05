@@ -2,7 +2,7 @@
 
 ![Trecho do Totalizador do Resumo Mensal de Notificação de TB e TB/HIV](imagens/totalizador-de-resumo-mensal-de-rastreio-e-investigacao-de-tb-contactos-e-inicio-de-tpt.png)
 
-O **Totalizador de Resumo Mensal de Rastreio e Investigação de TB, Contactos e Início de TPT** é um serviço online gratuito que auxilia na elaboração do resumo mensal de rastreio e investigação de TB, contactos e início de TPT, por meio do cálculo automático dos totais com base nos dados preenchidos pelo usuário. Foi criado de acordo com o modelo da respectiva ficha de resumo mensal actualmente vigente no Serviço Nacional de Saúde em Moçambique.
+O **Totalizador de Resumo Mensal de Rastreio e Investigação de TB, Contactos e Início de TPT** é um serviço online gratuito que auxilia na elaboração do resumo mensal de rastreio e investigação de TB, contactos e início de TPT por meio do cálculo automático dos totais com base nos dados preenchidos pelo usuário. Foi criado de acordo com o modelo da respectiva ficha de resumo mensal actualmente vigente no Serviço Nacional de Saúde em Moçambique.
 
 
 ## Objectivos
@@ -25,7 +25,7 @@ O **Totalizador de Resumo Mensal de Rastreio e Investigação de TB, Contactos e
 
 >[!NOTE]
 >
-> O totalizador garante um resumo mensal correctamente totalizado, porém, um resumo mensal de qualidade não se limita apenas à uma correcta totalização. Outros factores (que não dependem do totalizador) como preenchimento correcto e legível dos livros de registo, colheita de dados de todos os livros de registo com informação do mês em reporte, cruzamento de dados, entre outros, influenciam consideravelmente na qualidade de um resumo mensal.
+> O totalizador garante um resumo mensal correctamente totalizado, porém, um resumo mensal de qualidade não se limita apenas à uma correcta totalização. Outros factores (que não dependem do totalizador) como preenchimento correcto e legível dos livros de registo, colheita de dados de todos os livros de registo com informação do mês em reporte, cruzamento e concordância dos dados, entre outros, contribuem sobremaneira para a qualidade de um resumo mensal.
 
 
 ## Qual é o destino dos dados que eu insiro?
