@@ -1,7 +1,7 @@
 ﻿.ficha {
     width: var(--layout-width);
     margin: 30px auto 14px;
-    color: var(--fullblack);
+    color: var(--black);
 }
 .ficha span {
     line-height: 1.2;
@@ -61,7 +61,7 @@
 .ficha__header__col-de-titulo {
     grid-column: 1/4;
     padding: 5px 0;
-    background-color: var(--fullblack);
+    background-color: var(--black);
     color: var(--yt);
 }
 .ficha__titulo {
@@ -77,7 +77,7 @@
     text-align: center;
     padding: 8px 0;
     text-transform: uppercase;
-    background-color: var(--fullblack);
+    background-color: var(--black);
     color: var(--yt);
 }
 .ficha__seccao__titulo--margin-top {
@@ -92,7 +92,7 @@
 .linha-com-o-titulo-grupos-de-risco {
     grid-template-rows: 16px;
     align-items: center;
-    background-color: var(--gray--a);
+    background-color: var(--gray-a);
 }
 .seccao-1__header__col-2,
 .ficha__titulo-grupos-de-risco {
@@ -101,7 +101,7 @@
 .seccao-1__header__col-2 {
     display: grid;
     grid-template-rows: 17px 85px;
-    background-color: var(--gray--c);
+    background-color: var(--gray-c);
 }
 .ficha__titulo-grupos-de-risco {
     text-align: center;
@@ -246,10 +246,10 @@
 }
 /* CLASSES REUTILIZÁVEIS */
 .--cor-de-fundo-padrao {
-    background-color: var(--gray--c);
+    background-color: var(--gray-c);
 }
 .--cor-de-fundo-padrao--discreta {
-    background-color: var(--gray--d);
+    background-color: var(--gray-d);
 }
 .--line-height-0 span {
     line-height: 0 !important;
