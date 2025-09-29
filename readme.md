@@ -2,7 +2,7 @@
 
 ![Trecho do Totalizador do Resumo Mensal de Notificação de TB e TB/HIV](imagens/totalizador-de-resumo-mensal-de-rastreio-e-investigacao-de-tb-contactos-e-inicio-de-tpt.png)
 
-O **Totalizador de Resumo Mensal de Rastreio e Investigação de TB, Contactos e Início de TPT** é um serviço online gratuito que auxilia na elaboração do resumo mensal de rastreio e investigação de TB, contactos e início de TPT por meio do cálculo automático dos totais com base nos dados inseridos pelo usuário. Foi desenvolvido de acordo com o modelo da respectiva ficha de resumo mensal actualmente vigente no Serviço Nacional de Saúde em Moçambique.
+O **Totalizador de Resumo Mensal de Rastreio e Investigação de TB, Contactos e Início de TPT** é um serviço online gratuito, que auxilia na elaboração do resumo mensal de rastreio e investigação de TB, contactos e início de TPT por meio do cálculo automático dos totais com base nos dados inseridos pelo usuário. Foi desenvolvido de acordo com o modelo da respectiva ficha de resumo mensal actualmente vigente no Serviço Nacional de Saúde em Moçambique.
 
 
 ## Objectivos
