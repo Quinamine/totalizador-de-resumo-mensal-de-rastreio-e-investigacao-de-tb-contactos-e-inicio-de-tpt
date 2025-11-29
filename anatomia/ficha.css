@@ -24,8 +24,6 @@
 }
 .ficha__emblema {
     margin: auto;
-    width: 55px;
-    height: 55px;
 }
 .ficha__box-descricao-de-emblema span {
     display: block;
@@ -211,7 +209,7 @@
 }
 .ficha__rodape {
     padding: 30px 2px 10px;
-    min-height: 40px;
+    min-height: 58px;
     display: grid;
     grid-template-columns: 510.50px 1fr 155px;
 }
